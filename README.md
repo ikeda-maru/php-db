@@ -17,3 +17,8 @@ try {
   // 失敗したとき行う処理
 }
 ```
+
+## データベースでテーブルを作成
+create-table.php
+query()メソッド
+prepare()メソッド
