@@ -18,7 +18,13 @@ try {
 }
 ```
 
-## データベースでテーブルを作成
+## PHPでテーブルを作成
 create-table.php
 query()メソッド
+  実行したいSQL文が決まっている場合に使用
 prepare()メソッド
+  実行するSQL文が動的に変わる場合に使用
+
+## PHPでデータを取得
+select.php
+fetchAll()メソッド
