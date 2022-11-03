@@ -24,7 +24,26 @@ query()メソッド
   実行したいSQL文が決まっている場合に使用
 prepare()メソッド
   実行するSQL文が動的に変わる場合に使用
+  bindvalue()
+    プレースホルダ
+      :(コロン)で始まる文字列で指定
 
-## PHPでデータを取得
+## PHPでデータを取得(SELECT)
 select.php
+SELECT文
+query()メソッド
 fetchAll()メソッド
+
+## PHPでデータを挿入(INSERT)
+insert.php
+prepare()メソッド
+INSERT文
+bindvalue
+  プレースホルダ
+  :(コロン)で始まる文字列で指定
+isset関数
+  変数に値がセットされているか調べる関数。
+  値がセットされていれば"TRUE"を、そうでなければ"FALSE"を返す。
+header関数
+  ブラウザに対して様々な指示を出せる関数。
+  header('Location: リダイレクト先のパス')にすれば、別のページにリダイレクトさせられる。
