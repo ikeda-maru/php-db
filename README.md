@@ -58,3 +58,8 @@ POSTメソッド
 ## PHPでデータを更新(UPDATE)
 users.php
 update.php
+fetch()メソッド
+PHPをHTMLに埋め込むときの省略形
+  echo文を埋め込むとき
+  通常: <?php echo 'こんにちは!' ?>
+  省略: <?= 'こんにちは! ?>
